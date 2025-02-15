@@ -84,8 +84,13 @@ target/
 *.pyc
 __pycache__/
 local_settings.py
+# Ignore Django migrations
 */migrations/
+*/migrations/*.py
+*/migrations/*.pyc
+
 .env
+.venv
 db.sqlite3
 
 media
